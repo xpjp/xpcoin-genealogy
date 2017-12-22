@@ -19,6 +19,7 @@ digraph xpcoingenealogy {
   { rank = same; "2015"; "novacoin v0.5.5"}
   { rank = same; "2016"; "novacoin v0.5.6"}
   { rank = same; "2017"; "xpcoin v1.0.0"}
+  { rank = same; "2017"; "xpcoin v1.1.0"}
   "bitcoin v0.1.5" -> "bitcoin v0.4.0";
   "bitcoin v0.4.0" -> "bitcoin v0.6.3";
   "bitcoin v0.6.3" -> "bitcoin v0.15.1";
@@ -31,5 +32,6 @@ digraph xpcoingenealogy {
   "novacoin v0.2.4(not tagging)" -> "novacoin v0.5.5";
   "novacoin v0.5.5" -> "novacoin v0.5.6";
   "novacoin v0.5.5" -> "xpcoin v1.0.0";
+  "xpcoin v1.0.0" -> "xpcoin v1.1.0";
 }
 
